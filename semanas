@@ -1,0 +1,5 @@
+print ("cuánto tiempo de viaje?")
+tiempo_viaje = input()
+num_semanas = int(tiempo_viaje)\\7
+num_días = int(tiempo_viaje)%7
+print (Tu tiempo de viaje fue de, num_semanas, semanas, y, num_días, días)
